@@ -1,0 +1,88 @@
+.header{
+  height:500px;
+  background-image:url("https://bakey.codeit.kr/files/629/images/hero_header.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+}
+
+.navibar {
+  height:60px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.navibar #logo{
+  line-height:60px;
+}
+
+.navibar #logo img{
+  vertical-align:middle;
+}
+
+.navibar #menu{
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navibar #menu li{
+  float: left;
+  margin-left: 30px;
+  line-height: 60px;
+}
+
+.navibar #menu li a{
+  color: #545454;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.products h3{
+  font-size:24px;
+  color:#545454;
+  margin-top:60px;
+  margin-top:60px;
+  margin-bottom:60px;
+  text-align: center;
+}
+
+.product{
+  text-align:center;
+  width:225px;
+  display:block;
+  color:#545454;
+  text-decoration: none;
+  float:left;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.product-name{
+  margin-top:20px;
+  margin-bottom:4px;
+}
+
+.product-list{
+  width:735px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.clearfix{
+  clear:both;
+}
+
+.footer{
+  text-align:center;
+  margin-top:40px;
+  margin-bottom:80px;
+}
+
+.footer a{
+  margin-left:10px;
+  margin-right:10px;
+  text-decoration: none;
+}
